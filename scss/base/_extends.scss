@@ -1,0 +1,38 @@
+%font-p {
+    font-family: 'Oswald', sans-serif;
+    color: cornsilk; 
+    text-align: center;
+}
+
+%grid-general {
+    display: grid;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-bottom: 150px;
+    margin-left: 150px;
+    margin-right: 150px;
+    column-gap: 5px;
+    row-gap: 25px;
+    grid-template-columns: 50% 50%;
+    border: 6px solid #c0bfbf;
+    border-radius: 50px;
+}
+
+%videos-multimedia {
+    display: flex;
+    border-radius: 15px;
+    width: 75%;
+    height: 250px;
+}
+
+%flex-index {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-right: 2px solid #c0bfbf;
+    border-top: 2px solid #c0bfbf;
+    border-bottom: 2px solid #c0bfbf;
+    border-radius: 15px;
+    align-items: center;
+    height: 250px;
+}

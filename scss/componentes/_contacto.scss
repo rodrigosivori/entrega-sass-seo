@@ -14,9 +14,7 @@
 
         p { 
             width: 100%;
-            font-family: 'Oswald', sans-serif;
-            color: cornsilk; 
-            text-align: center;
+            @extend %font-p;
             padding-bottom: 1em;
         }
     }

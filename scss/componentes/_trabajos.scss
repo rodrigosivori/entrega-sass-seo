@@ -1,26 +1,18 @@
 /* TRABAJOS CSS */
 .cont-trabajos {
-    display: grid;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    margin: 150px;
+   @extend %grid-general;
+    margin-top: 150px;
     grid-template-areas: 
     "trab-left1 trab-right1"
     "trab-left2 trab-right2";
-    column-gap: 5px;
-    row-gap: 50px;
-    grid-template-columns: 50% 50%;
     grid-template-rows: 250px;
-    border: 6px solid #c0bfbf;
-    border-radius: 50px;
 
     div {
         p {
         padding-top: 1em;
         width: 90%;
-        font-family: 'Oswald', sans-serif;
-        color: cornsilk; 
-        text-align: center;
+        @extend %font-p;
+
         }
 
         img {

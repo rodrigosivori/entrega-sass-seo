@@ -1,26 +1,24 @@
 /* ABOUT TO CSS */
 .about-to {
     display: grid;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border: 6px solid #c0bfbf;
+    border-radius: 50px;
+    row-gap: 25px;
     grid-template-areas:
     "about-title"
     "about-img";
     grid-template-columns: 60%;
-    row-gap: 2em;
     justify-content: center;
-    padding-top: 40px;
-    padding-bottom: 40px;
     margin: 150px;
-    border: 6px solid #c0bfbf;
-    border-radius: 50px;
-
+   
     div {
         grid-area: about-title;
 
         p {
             width: 100%;
-            font-family: 'Oswald', sans-serif;
-            color: cornsilk; 
-            text-align: center;
+            @extend %font-p;
         }
     }
 
