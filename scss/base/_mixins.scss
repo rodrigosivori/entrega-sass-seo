@@ -1,0 +1,7 @@
+@mixin font-p ($color, $size) {
+    font-family: 'Oswald', sans-serif;
+    color: $color ; 
+    text-align: center;
+    font-size: $size;
+}
+

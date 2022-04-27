@@ -14,7 +14,7 @@
 
         p { 
             width: 100%;
-            @extend %font-p;
+            @include font-p (#fff8dc, 1em);
             padding-bottom: 1em;
         }
     }

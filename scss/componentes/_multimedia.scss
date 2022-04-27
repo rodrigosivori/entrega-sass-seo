@@ -9,7 +9,8 @@
         p {
             display: flex;
             width: 50%;    
-            @extend %font-p;
+            @include font-p (#fff8dc, 1em);
+
 
         }
     }

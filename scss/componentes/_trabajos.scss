@@ -11,7 +11,7 @@
         p {
         padding-top: 1em;
         width: 90%;
-        @extend %font-p;
+        @include font-p (#fff8dc, 1em);
 
         }
 

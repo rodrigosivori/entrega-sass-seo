@@ -21,12 +21,6 @@ h4 {
   font-size: 2vw;
 }
 
-.about-to div p, .cont-trabajos div p, .videos .titulo p, .cont-contacto .cont-contact-title p, .contenedor div p {
-  font-family: "Oswald", sans-serif;
-  color: cornsilk;
-  text-align: center;
-}
-
 .cont-trabajos, .videos .content-multimedia, .contenedor {
   display: grid;
   padding-top: 40px;
@@ -124,6 +118,10 @@ header nav ul li a:visited {
 .contenedor div p {
   width: 90%;
   font-size: 1vw;
+  font-family: "Oswald", sans-serif;
+  color: #fff8dc;
+  text-align: center;
+  font-size: 1em;
 }
 .contenedor div p a {
   color: cornsilk;
@@ -239,6 +237,10 @@ header nav ul li a:visited {
 }
 .cont-contacto .cont-contact-title p {
   width: 100%;
+  font-family: "Oswald", sans-serif;
+  color: #fff8dc;
+  text-align: center;
+  font-size: 1em;
   padding-bottom: 1em;
 }
 .cont-contacto .formulario {
@@ -325,6 +327,10 @@ header nav ul li a:visited {
 .videos .titulo p {
   display: flex;
   width: 50%;
+  font-family: "Oswald", sans-serif;
+  color: #fff8dc;
+  text-align: center;
+  font-size: 1em;
 }
 .videos .content-multimedia {
   grid-template-areas: "videoleft1 videoright1" "videoleft2 videoright2";
@@ -361,6 +367,10 @@ header nav ul li a:visited {
 .cont-trabajos div p {
   padding-top: 1em;
   width: 90%;
+  font-family: "Oswald", sans-serif;
+  color: #fff8dc;
+  text-align: center;
+  font-size: 1em;
 }
 .cont-trabajos div img {
   max-width: 90%;
@@ -445,6 +455,10 @@ header nav ul li a:visited {
 }
 .about-to div p {
   width: 100%;
+  font-family: "Oswald", sans-serif;
+  color: #fff8dc;
+  text-align: center;
+  font-size: 1em;
 }
 .about-to .about-img {
   grid-area: about-img;
