@@ -75,19 +75,19 @@ header nav ul {
 header nav ul li {
   margin-right: 1em;
   display: inline-block;
-  color: aliceblue;
+  color: #f0f8ff;
   font-family: "Oswald", sans-serif;
   list-style-type: none;
 }
 header nav ul li a:hover {
-  color: #666666;
+  color: #000000;
 }
 header nav ul li a:active {
-  color: #000000;
+  color: #666666;
 }
 header nav ul li a:visited {
   text-decoration: none;
-  color: #000000;
+  color: #666666;
 }
 
 .navbar .container-fluid {
@@ -95,7 +95,7 @@ header nav ul li a:visited {
 }
 
 .navbar-nav {
-  background-color: #fff;
+  background-color: #ffffff;
   align-items: end;
   padding: 0;
 }
@@ -124,11 +124,14 @@ header nav ul li a:visited {
   font-size: 1em;
 }
 .contenedor div p a {
-  color: cornsilk;
+  color: #fff8dc;
   text-decoration: underline;
 }
 .contenedor div p a:hover {
   color: #000000;
+}
+.contenedor div p a:active {
+  color: #666666;
 }
 .contenedor .indexleft1 {
   grid-area: indexleft1;
@@ -264,7 +267,7 @@ header nav ul li a:visited {
 }
 .cont-contacto .form-row input[type=text],
 .cont-contacto .form-row input[type=email] {
-  background-color: #fff;
+  background-color: #ffffff;
   border: 1px solid #d6d9dc;
   border-radius: 3px;
   width: 100%;
@@ -306,8 +309,7 @@ header nav ul li a:visited {
   background-color: #407fc7;
 }
 .cont-contacto .btn-primary {
-  background-color: #3477c4;
-  /* no me queda el mismo color que el form */
+  background-color: #5995da;
   border: none;
 }
 .cont-contacto .btn-primary:hover {
@@ -315,6 +317,16 @@ header nav ul li a:visited {
 }
 .cont-contacto .btn-primary:active {
   background-color: #407fc7;
+}
+.cont-contacto .btn-secondary {
+  background-color: #dd4949;
+  border: none;
+}
+.cont-contacto .btn-secondary:hover {
+  background-color: rgb(180, 89, 89);
+}
+.cont-contacto .btn-secondary:active {
+  background-color: rgb(119, 40, 40);
 }
 
 /* MULTIMEDIA CSS */

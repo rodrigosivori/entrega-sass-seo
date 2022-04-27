@@ -3,7 +3,7 @@ header {
     display: flex;
     height: 100px;
     justify-content: space-between;
-    background-color: #ffffff;
+    background-color: $bg-header;
     
     h2 { 
         width: 100px;
@@ -24,20 +24,20 @@ header {
             li {
                 margin-right: 1em;
                 display: inline-block;
-                color: aliceblue;
+                color: #f0f8ff;
                 font-family: 'Oswald', sans-serif;
                 list-style-type: none;
 
                 a {
                     &:hover {
-                        color: #666666;
+                        color: $link-hover;
                     }
                     &:active {
-                        color: #000000;
+                        color: $link-act-vis;
                     }
                     &:visited {
                         text-decoration: none;
-                        color: #000000;
+                        color: $link-act-vis;
                     }
                 }
             }
@@ -51,7 +51,7 @@ header {
 }
 
 .navbar-nav {
-    background-color: #fff;
+    background-color: $bg-header;
     align-items: end;
     padding: 0;
 

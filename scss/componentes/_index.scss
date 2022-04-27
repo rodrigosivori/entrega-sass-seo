@@ -17,12 +17,14 @@
 
 
             a { 
-                color: cornsilk; 
+                color: #fff8dc; 
                 text-decoration: underline;
 
                 &:hover {
-                    color: #000000; 
-                    
+                    color: $link-hover; 
+                }
+                &:active {
+                    color: $link-act-vis;
                 }
             }
         }
