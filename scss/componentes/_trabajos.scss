@@ -94,4 +94,29 @@
             }
         }
     }
+
+    @media screen and (max-width: 550px) {
+        display: flex;
+        grid-template-columns: 90%;
+        flex-direction: column;
+        margin: 10px;
+
+        .trab-left1, .trab-left1-back, .trab-right1, .trab-right1-back, .trab-left2, .trab-left2-back, .trab-right2, .trab-right2-back {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+            img {
+                border-radius: 15px;
+                transition: none;
+    
+                &:hover {
+                    transform: translate(0,0);
+                    opacity: 1;
+                    visibility: visible;
+                }
+            }
+        }
+    }
+
 }

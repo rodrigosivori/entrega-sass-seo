@@ -9,9 +9,10 @@
     grid-template-areas:
     "about-title"
     "about-img";
-    grid-template-columns: 60%;
+    grid-template-columns: 80%;
     justify-content: center;
-    margin: 150px;
+    margin: 50px;
+    margin-bottom: 150px;
    
     div {
         grid-area: about-title;
@@ -40,3 +41,12 @@
         }
     }
 }
+
+@media screen and (max-width: 550px) {
+    .about-to {
+    grid-template-columns: 90%;
+    margin: 10px;
+    }
+
+}
+

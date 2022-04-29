@@ -199,32 +199,36 @@ header nav ul li a:visited {
     display: flex;
     flex-direction: column;
     padding: 0;
-    margin: 15px;
+    margin: 10px;
     row-gap: 0px;
   }
-
-  h4 {
-    font-size: 5vw;
-  }
-
-  .indexleft1 {
+  .contenedor .indexleft1 {
     height: 30px;
     padding: 90px 0 40px 0;
     border: none;
   }
-
-  .indexright2 {
+  .contenedor .indexright2 {
     height: 30px;
     padding-top: 50px;
     border: none;
   }
-
-  .indexright1, .indexright1-box, .indexleft2, .indexleft3, .indexright4 {
+  .contenedor .indexright1, .contenedor .indexright1-box, .contenedor .indexleft2, .contenedor .indexleft3, .contenedor .indexright4 {
     display: none;
   }
-
-  .indexleft2-box, .indexright1-box, .indexright3, .indexleft4 {
+  .contenedor .indexleft2-box, .contenedor .indexright1-box, .contenedor .indexright3, .contenedor .indexleft4 {
     border: none;
+  }
+  .contenedor .indexleft2-box img, .contenedor .indexright1-box img, .contenedor .indexright3 img, .contenedor .indexleft4 img {
+    transition: none;
+  }
+  .contenedor .indexleft2-box img:hover, .contenedor .indexright1-box img:hover, .contenedor .indexright3 img:hover, .contenedor .indexleft4 img:hover {
+    transform: translate(0, 0);
+    visibility: visible;
+    opacity: 1;
+  }
+
+  h4 {
+    font-size: 5vw;
   }
 }
 /* CONTACTO CSS */
@@ -251,7 +255,7 @@ header nav ul li a:visited {
   background-color: #f6f7f8;
   border: 1px solid #d6d9dc;
   border-radius: 10px;
-  width: 45%;
+  width: 60%;
   margin: 0 0 100px 0;
   padding: 50px;
 }
@@ -327,6 +331,11 @@ header nav ul li a:visited {
 }
 .cont-contacto .btn-secondary:active {
   background-color: rgb(119, 40, 40);
+}
+@media screen and (max-width: 550px) {
+  .cont-contacto .formulario {
+    width: 80%;
+  }
 }
 
 /* MULTIMEDIA CSS */
@@ -448,6 +457,28 @@ header nav ul li a:visited {
   opacity: 0.05;
   visibility: hidden;
 }
+@media screen and (max-width: 550px) {
+  .cont-trabajos {
+    display: flex;
+    grid-template-columns: 90%;
+    flex-direction: column;
+    margin: 10px;
+  }
+  .cont-trabajos .trab-left1, .cont-trabajos .trab-left1-back, .cont-trabajos .trab-right1, .cont-trabajos .trab-right1-back, .cont-trabajos .trab-left2, .cont-trabajos .trab-left2-back, .cont-trabajos .trab-right2, .cont-trabajos .trab-right2-back {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .cont-trabajos .trab-left1 img, .cont-trabajos .trab-left1-back img, .cont-trabajos .trab-right1 img, .cont-trabajos .trab-right1-back img, .cont-trabajos .trab-left2 img, .cont-trabajos .trab-left2-back img, .cont-trabajos .trab-right2 img, .cont-trabajos .trab-right2-back img {
+    border-radius: 15px;
+    transition: none;
+  }
+  .cont-trabajos .trab-left1 img:hover, .cont-trabajos .trab-left1-back img:hover, .cont-trabajos .trab-right1 img:hover, .cont-trabajos .trab-right1-back img:hover, .cont-trabajos .trab-left2 img:hover, .cont-trabajos .trab-left2-back img:hover, .cont-trabajos .trab-right2 img:hover, .cont-trabajos .trab-right2-back img:hover {
+    transform: translate(0, 0);
+    opacity: 1;
+    visibility: visible;
+  }
+}
 
 /* ABOUT TO CSS */
 .about-to {
@@ -458,9 +489,10 @@ header nav ul li a:visited {
   border-radius: 50px;
   row-gap: 25px;
   grid-template-areas: "about-title" "about-img";
-  grid-template-columns: 60%;
+  grid-template-columns: 80%;
   justify-content: center;
-  margin: 150px;
+  margin: 50px;
+  margin-bottom: 150px;
 }
 .about-to div {
   grid-area: about-title;
@@ -486,6 +518,12 @@ header nav ul li a:visited {
   border-radius: 10px;
 }
 
+@media screen and (max-width: 550px) {
+  .about-to {
+    grid-template-columns: 90%;
+    margin: 10px;
+  }
+}
 /* FOOTER CSS */
 footer {
   background-color: #ffffff;
